@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333; /* Dark background for header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px; /* Increased padding for more space */
+    margin: 20px 0; /* Space between sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#about {
+    background: #f9f9f9; /* Light background for About section */
+    border: 1px solid #ddd; /* Light border */
+}
+
+#projects {
+    background: #e9f7f9; /* Light background for Projects section */
+    border: 1px solid #ccc; /* Light border */
+}
+
+#skills {
+    background: #f0f8ff; /* Light background for Skills section */
+    border: 1px solid #aaa; /* Light border */
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.skill-column {
+    flex: 1; /* Each column takes equal space */
+    margin: 10px; /* Spacing between columns */
+    min-width: 200px; /* Ensures columns don’t get too narrow */
+}
+
+.skill-column h3 {
+    margin-bottom: 10px; /* Space below subheading */
+}
+
+.skill-column ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding from ul */
+}
+
+#contact {
+    background: #fff3e6; /* Light background for Contact section */
+    border: 1px solid #ddd; /* Light border */
+}
+
+#contact p {
+    display: flex;
+    align-items: center; /* Aligns icon and text vertically */
+}
+
+#contact i {
+    margin-right: 8px; /* Space between icon and text */
+    color: #333; /* Icon color */
+    font-size: 1.2em; /* Icon size */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333; /* Dark background for footer */
+    color: #fff;
+}
