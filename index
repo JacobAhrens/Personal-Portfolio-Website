@@ -1,0 +1,89 @@
+<body>
+    <header>
+        <h1>Jacob Ahrens</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m Jacob Ahrens, a Computer Engineering student at the University of Miami, focusing on software development and engineering principles. With a strong academic foundation and hands-on experience, I hope to continue to expand my knowledge in the relem of software</p>
+        <p>My background includes experience in IT consulting and work as a Teaching Assistant. I’ve worked with various programming languages, frameworks, and tools, developing a versatile skill set that allows me to approach complex problems with confidence and creativity. </p>
+        <p>Outside of coursework, I engage in leadership and technical development activities through my involvement in professional organizations and university programs. These experiences have helped me build collaboration, communication, and problem-solving skills, preparing me for a successful career in the tech industry.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Projects in progress</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-column">
+                <h3>Languages</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>C#</li>
+                    <li>Assembly Language</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="skill-column">
+                <h3>Frameworks and Libraries</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+            <div class="skill-column">
+                <h3>Operating Systems</h3>
+                <ul>
+                    <li>Unix</li>
+                    <li>Linux</li>
+                    <li>Tchs</li>
+                </ul>
+            </div>
+            <div class="skill-column">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: 
+            <a href="mailto:jahrens1003@gmail.com">
+                <i class="fas fa-envelope"></i> jahrens1003@gmail.com
+            </a>
+        </p>
+        <p>GitHub: 
+            <a href="https://github.com/JacobAhrens" target="_blank">
+                <i class="fab fa-github"></i> JacobAhrens
+            </a>
+        </p>
+        <p>LinkedIn: 
+            <a href="https://www.linkedin.com/in/jacob-ahrens" target="_blank">
+                <i class="fab fa-linkedin"></i> Jacob Ahrens
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting!</p>
+    </footer>
+</body>
